@@ -10,7 +10,7 @@ namespace CoAP.Examples
         {
             String method = null;
             Uri uri = null;
-            String payload = null;
+            String payload = "Test Msg01"; // null;
             Boolean loop = false;
             Boolean byEvent = true;
 

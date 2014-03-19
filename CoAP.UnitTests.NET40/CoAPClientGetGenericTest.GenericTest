@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GenericTest name="CoAPClientGetGenericTest" storage="c:\dev\github\omarv74\coap.net\coap.unittests.net40\coapclientgetgenerictest.generictest" id="bde0cad0-4d96-4998-8b7f-1cce50b3b9a7" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Command filename="C:\Dev\Github\omarv74\CoAP.NET\CoAP.Client\bin\Debug\NET40\CoAPClient.exe" maxDuration="5000" workingDirectory="%TestOutputDirectory%" />
+  <SummaryXmlFile path="%TestOutputDirectory%\&lt;Enter summary file name here&gt;" />
+</GenericTest>
