@@ -1,6 +1,7 @@
 ﻿using System;
 using CoAP.EndPoint;
 using CoAP.EndPoint.Resources;
+using IoTLib;
 
 namespace CoAP.Examples
 {
@@ -14,10 +15,19 @@ namespace CoAP.Examples
             Boolean loop = false;
             Boolean byEvent = true;
 
-            args = new String[] { "GET", "coap://127.0.0.1" };
+            IoTMessage payload2 = new IoTMessage();
+            payload = payload2.ToJsonString();
 
             if (args.Length == 0)
+            {
+                // args = new String[] { "GET", "coap://127.0.0.1" }; // murugan02 responds on port 5184
+                args = new String[] { "GET", "coap://murugan02" }; // murugan02 responds on port 5184
+            }
+
+            if (args.Length == 0 || args[0] == "-h" || args[0] == "-?" || args[0] == "/?" )
+            {
                 PrintUsage();
+            }
 
             Int32 index = 0;
             foreach (String arg in args)

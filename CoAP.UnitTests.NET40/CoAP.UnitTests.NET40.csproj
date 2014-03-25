@@ -59,6 +59,10 @@
       <Project>{45db1e45-4831-4e4a-bb1e-ae92eea182e3}</Project>
       <Name>CoAP.NET40</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IoTLib\IoTLib.csproj">
+      <Project>{886c5535-8b07-4d1e-83b0-e7edfbbd0c53}</Project>
+      <Name>IoTLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="CoAPClientGetGenericTest.GenericTest">

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoAP.Server.NET40", "CoAP.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoAP.UnitTests.NET40", "CoAP.UnitTests.NET40\CoAP.UnitTests.NET40.csproj", "{2E9F92F8-5942-48F5-8D22-771B473CD84A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTLib", "IoTLib\IoTLib.csproj", "{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,16 @@ Global
 		{2E9F92F8-5942-48F5-8D22-771B473CD84A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2E9F92F8-5942-48F5-8D22-771B473CD84A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2E9F92F8-5942-48F5-8D22-771B473CD84A}.Release|x86.ActiveCfg = Release|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{886C5535-8B07-4D1E-83B0-E7EDFBBD0C53}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

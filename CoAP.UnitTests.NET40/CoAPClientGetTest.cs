@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CoAP.EndPoint.Resources;
+using IoTLib;
 
 namespace CoAP.UnitTests.NET40
 {
@@ -11,8 +12,13 @@ namespace CoAP.UnitTests.NET40
         public void CoAPClientGetUnitTest()
         {
             String method = "GET";
+            //Uri uri = new Uri("coap://127.0.0.1");
             Uri uri = new Uri("coap://127.0.0.1");
             String payload = "Test Msg01"; // null;
+            
+            IoTMessage payload2 = new IoTMessage();
+            payload = payload2.ToJsonString();
+
             Boolean loop = false;
             Boolean byEvent = false; // true;
             
